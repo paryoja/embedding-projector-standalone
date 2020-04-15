@@ -6,7 +6,7 @@ services:
       image:
         "nginx:latest"
       ports:
-        - "80:80"
+        - "30080:80"
       volumes:
         - ./config/nginx:/etc/nginx/conf.d
         - ./:/work
